@@ -1,3 +1,6 @@
+virtualenv:
+  system_site_packages: true
+  
 language: python3
- - "3.5"
+  - "3.5"
 script: make test
