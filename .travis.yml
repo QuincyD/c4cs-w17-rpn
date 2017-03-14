@@ -1,6 +1,5 @@
-virtualenv:
-  system_site_packages: true
-  
 language: python3
   - "3.5"
+# get python3
+install: "pip install python3"
 script: make test
