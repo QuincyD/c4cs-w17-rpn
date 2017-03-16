@@ -1,6 +1,6 @@
 
 before_install:
- - sudo apt install pythen3 python3-pip --yes
+ - sudo apt install python3-pip --yes
  - pip3 install virtualenv
 
 language: python
