@@ -1,5 +1,9 @@
-language: python3
+
+before_install:
+ - sudo apt install pythen3 python3-pip --yes
+ - pip3 install virtualenv
+
+language: python
   - "3.5"
-# get python3
-install: "pip install python3"
+
 script: make test
